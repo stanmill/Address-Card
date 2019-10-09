@@ -1,1 +1,5 @@
-<app-address-card></app-address-card>
+<app-address-card [user]="user"></app-address-card>
+<input type="text" [(ngModel)]="inputText"> <!--brackets pass in variable value-->
+{{ inputText }}
+<!--two way binding you need brackets and parenthesis with ngModel-->
+<!--you need the forms module-->
